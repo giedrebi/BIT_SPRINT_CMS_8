@@ -1,0 +1,71 @@
+/* BUTTONS */
+table a, button a {
+	text-decoration: none !important;
+	color:#f9f9f9 !important;
+	padding: 15px ;
+}
+table a:hover , button a:hover {
+	color:#8f8787 !important;
+}
+button {
+	border: 2px solid #f9f9f9;
+	border-radius: 10px !important; 
+	background-color: #8f8787;
+	color:#f9f9f9;
+	transition: 0,7s;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+button:hover {
+	border: 2px solid #8f8787;
+	background-color: #f9f9f9;
+	color: #8f8787;
+}
+
+/* CONTENT */
+#title , #content {
+	text-align: center;
+	margin-top: 20px;
+}
+#content {
+	margin-bottom: 90px !important;	
+	margin: auto;
+}
+
+/* TABLE */
+table {
+	width:100%; 
+	border:2px solid #8f8787; 
+	background:#fff; 
+	margin-bottom:20px;
+	margin-top: 20px;
+}
+table th {
+	background-color:#dfd3c3; 
+	border:1px solid #8f8787; 
+	font-size: 1.4rem;
+	padding:3px 6px; 
+	font-weight:normal; 
+}
+table tr td {
+	border:1px solid #8f8787; 
+	padding:5px 6px;
+	font-size:1rem; 
+}
+table tr.alt td {
+	background-color:#E2E2E2;
+}
+table tr:hover {
+	background-color:#F0F0F0; 
+}
+
+/* MESSAGES */
+.success {
+	text-align: center;
+	margin-top: 20px;
+}
+.error {
+	text-align: center;
+	margin-top: 20px;
+	color: red;
+}
